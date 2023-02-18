@@ -1,5 +1,9 @@
 <template>
-  <AppIcon></AppIcon>
+  <div style="position:absolute;">
+    <AppIcon></AppIcon>
+    <AppIcon></AppIcon>
+  </div>
+  
   <Taskbar></Taskbar>
 </template>
 
