@@ -1,14 +1,16 @@
 <template>
-  <label>content</label>
+  <AppIcon></AppIcon>
   <Taskbar></Taskbar>
 </template>
 
 <script lang="ts">
 import Taskbar from './components/Taskbar.vue';
+import AppIcon from './components/AppIcon.vue';
 
 export default {
     components: { 
       Taskbar,
+      AppIcon,
     },
     data(){
       return{
